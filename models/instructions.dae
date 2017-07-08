@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 2.78.0 commit date:2016-10-24, commit time:12:20, hash:e8299c8</authoring_tool>
+    </contributor>
+    <created>2017-07-04T15:08:23</created>
+    <modified>2017-07-04T15:08:23</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_images/>
+  <library_effects>
+    <effect id="_27_211_176_0_0_0_y_6478653_x_6800482_a_8925_r0_n0_m0_g_962477_-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.8888889 0.8268077 0.691358 1</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">1 1 1 1</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">50</float>
+            </shininess>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_materials>
+    <material id="_27_211_176_0_0_0_y_6478653_x_6800482_a_8925_r0_n0_m0_g_962477_-material" name="_27_211_176_0_0_0_y_6478653_x_6800482_a_8925_r0_n0_m0_g_962477_">
+      <instance_effect url="#_27_211_176_0_0_0_y_6478653_x_6800482_a_8925_r0_n0_m0_g_962477_-effect"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="Merge_Group0_227_211_176_0_0_0_y_6478653_x_6800482_a_8925_r0_n0-mesh" name="Merge_Group0_227_211_176_0_0_0_y.6478653_x.6800482_a.8925_r0_n0">
+      <mesh>
+        <source id="Merge_Group0_227_211_176_0_0_0_y_6478653_x_6800482_a_8925_r0_n0-mesh-positions">
+          <float_array id="Merge_Group0_227_211_176_0_0_0_y_6478653_x_6800482_a_8925_r0_n0-mesh-positions-array" count="72">0.9989805 0.8102616 0.03719693 0.903666 0.8111174 0.2471842 0.9037412 0.8003403 0.2472622 0.9990558 0.7994846 0.03727501 0.6921514 0.8071099 -0.102062 0.5968367 0.8079656 0.1079253 0.903666 0.8111174 0.2471842 0.9989805 0.8102616 0.03719693 0.6922266 0.7963328 -0.1019839 0.596912 0.7971885 0.1080033 0.5968367 0.8079656 0.1079253 0.6921514 0.8071099 -0.102062 0.9990558 0.7994846 0.03727501 0.9037412 0.8003403 0.2472622 0.596912 0.7971885 0.1080033 0.6922266 0.7963328 -0.1019839 0.6921514 0.8071099 -0.102062 0.9989805 0.8102616 0.03719693 0.9990558 0.7994846 0.03727501 0.6922266 0.7963328 -0.1019839 0.903666 0.8111174 0.2471842 0.5968367 0.8079656 0.1079253 0.596912 0.7971885 0.1080033 0.9037412 0.8003403 0.2472622</float_array>
+          <technique_common>
+            <accessor source="#Merge_Group0_227_211_176_0_0_0_y_6478653_x_6800482_a_8925_r0_n0-mesh-positions-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Merge_Group0_227_211_176_0_0_0_y_6478653_x_6800482_a_8925_r0_n0-mesh-normals">
+          <float_array id="Merge_Group0_227_211_176_0_0_0_y_6478653_x_6800482_a_8925_r0_n0-mesh-normals-array" count="72">0.9105628 0.009352862 0.4132652 0.9105583 0.009349107 0.4132751 0.9105585 0.009349226 0.4132747 0.9105628 0.009352982 0.4132649 -0.006983399 0.9999494 -0.007244527 -0.006983637 0.9999495 -0.007244229 -0.00698328 0.9999494 -0.007244706 -0.006983101 0.9999494 -0.007245004 -0.9105604 -0.009329795 -0.413271 -0.9105606 -0.009360849 -0.4132698 -0.9105606 -0.009359896 -0.4132698 -0.9105603 -0.009328842 -0.413271 0.006983518 -0.9999494 0.007244944 0.006983458 -0.9999495 0.007244646 0.006983518 -0.9999495 0.007245123 0.006983518 -0.9999495 0.007245421 0.4133135 -0.003709256 -0.9105812 0.4133182 -0.00371617 -0.9105792 0.4133181 -0.003716051 -0.9105792 0.4133134 -0.003709077 -0.9105813 -0.4133198 0.003712952 0.9105784 -0.41332 0.00369817 0.9105784 -0.41332 0.003698468 0.9105783 -0.4133198 0.00371325 0.9105785</float_array>
+          <technique_common>
+            <accessor source="#Merge_Group0_227_211_176_0_0_0_y_6478653_x_6800482_a_8925_r0_n0-mesh-normals-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Merge_Group0_227_211_176_0_0_0_y_6478653_x_6800482_a_8925_r0_n0-mesh-map-0">
+          <float_array id="Merge_Group0_227_211_176_0_0_0_y_6478653_x_6800482_a_8925_r0_n0-mesh-map-0-array" count="72">1 1 0 1 0 0 1 0 1 1 0 0 1 1 0 1 0 0 1 0 1 1 0 0 1 1 0 1 0 0 1 0 1 1 0 0 1 1 0 1 0 0 1 0 1 1 0 0 1 1 0 1 0 0 1 0 1 1 0 0 1 1 0 1 0 0 1 0 1 1 0 0</float_array>
+          <technique_common>
+            <accessor source="#Merge_Group0_227_211_176_0_0_0_y_6478653_x_6800482_a_8925_r0_n0-mesh-map-0-array" count="36" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Merge_Group0_227_211_176_0_0_0_y_6478653_x_6800482_a_8925_r0_n0-mesh-vertices">
+          <input semantic="POSITION" source="#Merge_Group0_227_211_176_0_0_0_y_6478653_x_6800482_a_8925_r0_n0-mesh-positions"/>
+        </vertices>
+        <polylist material="_27_211_176_0_0_0_y_6478653_x_6800482_a_8925_r0_n0_m0_g_962477_-material" count="12">
+          <input semantic="VERTEX" source="#Merge_Group0_227_211_176_0_0_0_y_6478653_x_6800482_a_8925_r0_n0-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Merge_Group0_227_211_176_0_0_0_y_6478653_x_6800482_a_8925_r0_n0-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#Merge_Group0_227_211_176_0_0_0_y_6478653_x_6800482_a_8925_r0_n0-mesh-map-0" offset="2" set="0"/>
+          <vcount>3 3 3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p>0 0 0 1 1 1 2 2 2 3 3 3 0 0 4 2 2 5 4 4 6 5 5 7 6 6 8 7 7 9 4 4 10 6 6 11 8 8 12 9 9 13 10 10 14 11 11 15 8 8 16 10 10 17 12 12 18 13 13 19 14 14 20 15 15 21 12 12 22 14 14 23 16 16 24 17 17 25 18 18 26 19 19 27 16 16 28 18 18 29 20 20 30 21 21 31 22 22 32 23 23 33 20 20 34 22 22 35</p>
+        </polylist>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers/>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Instructions" name="Instructions" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 -1.62921e-7 -1 0 0 1 -1.62921e-7 0 0 0 0 1</matrix>
+        <instance_geometry url="#Merge_Group0_227_211_176_0_0_0_y_6478653_x_6800482_a_8925_r0_n0-mesh" name="Instructions">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="_27_211_176_0_0_0_y_6478653_x_6800482_a_8925_r0_n0_m0_g_962477_-material" target="#_27_211_176_0_0_0_y_6478653_x_6800482_a_8925_r0_n0_m0_g_962477_-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>
