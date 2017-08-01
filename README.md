@@ -15,3 +15,7 @@ An [A-Frame](https://aframe.io) [WebVR](https://webvr.info/) consumer for [Conte
 
 ## Initiatives
 * Please see the [issue queue](https://github.com/contentacms/contenta_aframe/issues)
+
+## Building Locally
+1. `npm install`
+1. `npm start`
