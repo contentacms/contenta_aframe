@@ -1,6 +1,9 @@
 <html>
   <head>
-    <script src="scripts/aframe.min.js"></script>
+    <meta charset="utf-8">
+    <title>Contenta A-Frame</title>
+    <meta name="description" content="An A-Frame WebVR consumer for Contenta CMS.">
+    <script src="build.js"></script>
   </head>
   <body style="background-color: #030404">
     <a-scene>
@@ -11,7 +14,7 @@
         <a-asset-item id="bowl" src="models/bowl.dae"></a-asset-item>
         <a-asset-item id="stove-door" src="models/stove-door.dae"></a-asset-item>
       </a-assets>
-      <a-entity collada-model="#layout" rotation="0 180 0" ></a-entity>
+      <a-entity collada-model="#layout" rotation="0 180 0"></a-entity>
       <a-entity collada-model="#bowl" position="-0.926 0.01 -1.052"></a-entity>
       <a-entity collada-model="#stove-door" position="0.967 -0.097 -0.49" rotation="0 -70.18732990352585 0"></a-entity>
       <a-entity id="ground"
