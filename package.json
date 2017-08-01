@@ -11,7 +11,7 @@
     "url": "git+https://github.com/contentacms/contenta_aframe.git"
   },
   "author": "Jerad Bitner",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/contentacms/contenta_aframe/issues"
   },
