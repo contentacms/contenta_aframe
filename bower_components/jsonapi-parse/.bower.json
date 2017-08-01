@@ -1,0 +1,21 @@
+{
+  "name": "jsonapi-parse",
+  "version": "1.2.0",
+  "main": "dist/jsonapi.js",
+  "ignore": [
+    "**/*",
+    "!dist/*",
+    "!bower.json"
+  ],
+  "homepage": "https://github.com/mysidewalk/jsonapi-parse",
+  "_release": "1.2.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "1.2.0",
+    "commit": "8d00097fc42bbea6812042eae4904dd947b14eea"
+  },
+  "_source": "https://github.com/mysidewalk/jsonapi-parse.git",
+  "_target": "^1.2.0",
+  "_originalSource": "jsonapi-parse",
+  "_direct": true
+}
