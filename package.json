@@ -4,6 +4,7 @@
   "description": "An [A-Frame](https://aframe.io) [WebVR](https://webvr.info/) consumer for [Contenta CMS](http://www.contentacms.org/).",
   "main": "index.js",
   "scripts": {
+    "build": "cross-env NODE_ENV=production webpack",
     "start": "webpack-dev-server --host 0.0.0.0"
   },
   "repository": {
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/contentacms/contenta_aframe#readme",
   "dependencies": {
+    "cross-env": "^5.0.2",
     "webpack": "^3.4.1"
   }
 }
