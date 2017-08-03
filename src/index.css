@@ -1,0 +1,10 @@
+/**
+ * @file index.css
+ * CSS file for the Aframe Boilerplate app.
+ */
+
+#root {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}

@@ -16,8 +16,20 @@
     "node": ">=8.2.1"
   },
   "scripts": {
-    "build": "cross-env NODE_ENV=production webpack",
-    "start": "webpack-dev-server --host 0.0.0.0"
+    "lint": "eslint --ext .jsx,.js src",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build",
+    "precommit": "lint-staged && yarn lint",
+    "prettier": "prettier --single-quote --write \"src/**/*.{js,jsx}\""
+  },
+  "lint-staged": {
+    "src/**/*.{js,jsx,json,css}": [
+      "prettier --single-quote --write",
+      "git add"
+    ]
   },
   "devDependencies": {
     "eslint": "^4.2.0",
