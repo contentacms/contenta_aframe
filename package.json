@@ -4,7 +4,7 @@
   "description": "An [A-Frame](https://aframe.io) [WebVR](https://webvr.info/) consumer for [Contenta CMS](http://www.contentacms.org/).",
   "author": "Jerad Bitner",
   "license": "MIT",
-  "homepage": "https://github.com/contentacms/contenta_aframe#readme",
+  "homepage": "https://contentacms.github.io/contenta_aframe",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/contentacms/contenta_aframe.git"
