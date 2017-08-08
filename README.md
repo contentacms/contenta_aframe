@@ -4,6 +4,7 @@ An [A-Frame](https://aframe.io) [WebVR](https://webvr.info/) consumer for [Conte
 ## Status
 * [x] base models
 * [x] base a-frame layout
+* [x] react integration
 * [ ] contenta integration for populating recipes  
 
 ## Requirements
@@ -17,6 +18,8 @@ An [A-Frame](https://aframe.io) [WebVR](https://webvr.info/) consumer for [Conte
 
 ## Coding standards
 This project uses Eslint, configured to use AirBnb's standard set. To lint code in this project, run `yarn lint`. This project also uses Prettier, which will format your code according to the Prettier standard. As enforced by Husky, you cannot commit code that does not fit the defined standard.
+
+We're also using [aframe-react](https://www.npmjs.com/package/aframe-react) which gives us some of the benefits of React when working with A-Frame.
 
 ## Developing in Google Daydream
 The development server in this project is set up so that it can be accessed by any device on your local network. That's why you access your development instance from your local IP instead of just `localhost`.
