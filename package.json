@@ -2,23 +2,53 @@
   "name": "contenta_aframe",
   "version": "1.0.0",
   "description": "An [A-Frame](https://aframe.io) [WebVR](https://webvr.info/) consumer for [Contenta CMS](http://www.contentacms.org/).",
-  "main": "index.js",
-  "scripts": {
-    "build": "cross-env NODE_ENV=production webpack",
-    "start": "webpack-dev-server --host 0.0.0.0"
-  },
+  "author": "Jerad Bitner",
+  "license": "MIT",
+  "homepage": "https://contentacms.github.io/contenta_aframe",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/contentacms/contenta_aframe.git"
   },
-  "author": "Jerad Bitner",
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/contentacms/contenta_aframe/issues"
   },
-  "homepage": "https://github.com/contentacms/contenta_aframe#readme",
+  "engines": {
+    "node": ">=8.2.1"
+  },
+  "scripts": {
+    "lint": "eslint --ext .jsx,.js src",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build",
+    "precommit": "lint-staged && yarn lint",
+    "prettier": "prettier --single-quote --write \"src/**/*.{js,jsx}\""
+  },
+  "lint-staged": {
+    "src/**/*.{js,jsx,json,css}": [
+      "prettier --single-quote --write",
+      "git add"
+    ]
+  },
+  "devDependencies": {
+    "eslint": "^4.2.0",
+    "eslint-config-airbnb": "^15.0.2",
+    "eslint-config-prettier": "^2.3.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "5.1.1",
+    "eslint-plugin-react": "^7.1.0",
+    "gh-pages": "^1.0.0",
+    "husky": "^0.14.3",
+    "last-release-git": "^0.0.3",
+    "lint-staged": "^4.0.2",
+    "prettier": "^1.5.3",
+    "react-scripts": "^1.0.10"
+  },
   "dependencies": {
-    "cross-env": "^5.0.2",
-    "webpack": "^3.4.1"
+    "aframe": "^0.6.1",
+    "aframe-react": "^4.3.0",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
   }
 }

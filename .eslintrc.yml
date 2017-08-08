@@ -1,0 +1,22 @@
+extends:
+  - "airbnb"
+  - "prettier"
+  - "prettier/react"
+plugins:
+  - "react"
+env:
+  es6: true
+  browser: true
+globals:
+  AFRAME: true
+  it: true
+parserOptions:
+  ecmaVersion: 2015
+  ecmaFeatures:
+    jsx: true
+    experimentalObjectRestSpread: true
+rules:
+  react/jsx-filename-extension: 0
+  react/forbid-prop-types: 0
+  jsx-a11y/alt-text: 0
+  global-require: 0
