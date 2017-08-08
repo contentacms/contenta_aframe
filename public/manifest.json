@@ -1,6 +1,6 @@
 {
-  "short_name": "WebVR Studio",
-  "name": "Build WebVR experiences with WebVR Studio.",
+  "short_name": "Contenta A-Frame",
+  "name": "An A-Frame WebVR consumer for Contenta CMS.",
   "icons": [
     {
       "src": "favicon.ico",
