@@ -46,7 +46,7 @@
     "react-scripts": "^1.0.10"
   },
   "dependencies": {
-    "aframe": "^0.6.0",
+    "aframe": "^0.6.1",
     "aframe-react": "^4.3.0",
     "react": "^15.6.1",
     "react-dom": "^15.6.1"

@@ -59,7 +59,7 @@ aframe-react@^4.3.0:
   version "4.3.0"
   resolved "https://registry.yarnpkg.com/aframe-react/-/aframe-react-4.3.0.tgz#43eba68be4a1e88830aac404e90ac033945fbf54"
 
-aframe@^0.6.0:
+aframe@^0.6.1:
   version "0.6.1"
   resolved "https://registry.yarnpkg.com/aframe/-/aframe-0.6.1.tgz#291d6aad47586e09d04689fd48c1fb03f0ba63a5"
   dependencies:
@@ -1916,7 +1916,7 @@ debug@2.6.8, debug@^2.1.1, debug@^2.2.0, debug@^2.6.0, debug@^2.6.3, debug@^2.6.
   dependencies:
     ms "2.0.0"
 
-debug@ngokevin/debug#noTimestamp:
+"debug@github:ngokevin/debug#noTimestamp":
   version "2.2.0"
   resolved "https://codeload.github.com/ngokevin/debug/tar.gz/ef5f8e66d49ce8bc64c6f282c15f8b7164409e3a"
 
@@ -2090,7 +2090,7 @@ doctrine@^2.0.0:
     esutils "^2.0.2"
     isarray "^1.0.0"
 
-document-register-element@dmarcos/document-register-element#8ccc532b7:
+"document-register-element@github:dmarcos/document-register-element#8ccc532b7":
   version "0.5.4"
   resolved "https://codeload.github.com/dmarcos/document-register-element/tar.gz/8ccc532b7"
 
