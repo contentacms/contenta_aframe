@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.css"],"names":[],"mappings":"AAKA,MACE,kBACA,WACA,WAAa","file":"static/css/main.97d6937a.css","sourcesContent":["/**\n * @file index.css\n * CSS file for the Aframe Boilerplate app.\n */\n\n#root {\n  position: absolute;\n  width: 100%;\n  height: 100%;\n}\n\n\n\n// WEBPACK FOOTER //\n// ./src/index.css"],"sourceRoot":""}
