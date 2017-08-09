@@ -27,7 +27,7 @@ const assets = {
  * {@inheritdoc}
  */
 const ContentaAframe = () =>
-  <Scene inspector="url: https://aframe.io/releases/0.4.0/aframe-inspector.min.js">
+  <Scene>
     <Entity primitive="a-assets">
       <img id="floor" src={assets.images.floor} />
       <img id="skymap" src={assets.images.skymap} />
